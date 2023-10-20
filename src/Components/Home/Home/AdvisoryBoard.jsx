@@ -8,11 +8,11 @@ import 'swiper/css/pagination'; */
 
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+//import { EffectCoverflow, Pagination } from 'swiper/modules';
 const AdvisoryBoard = () => {
   return (
     <div className=" max-w-screen-xl mx-auto py-[10em] px-[1em]">
-      <h1 className="text-5xl font-bold text-gray-900 mb-5">Advisory Board</h1>
+      <h1 className="text-5xl font-bold text-gray-900 mb-5">Our Team</h1>
       <hr className="w-28 h-1 bg-green-900 mb-10" />
     <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
   {/*     <Swiper  effect={'coverflow'}

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link, NavLink } from 'react-router-dom';
 // import { FaMoon, FaRegMoon } from 'react-icons/fa';
 
@@ -28,7 +28,7 @@ const NavBar = () => {
     </>
     return (
         <div>
-            <div className={`   navbar   transition duration-300 ${scroll ? 'bg-white text-black' : 'bg-transparent text-white'
+            <div className={`   navbar   transition duration-300 ${scroll ? 'bg-white text-black' : 'bg-transparent text-white shadow-md'
                 }`}>
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -58,10 +58,9 @@ const NavBar = () => {
                     } */}
 
 
-                    {
-                        user ? <p className='mr-2 md:mr-6'><Link>Log out</Link></p> : <><p><NavLink to='/login'>Login</NavLink></p>
+                    
+                         <><p className='font-bold text-lg'><NavLink to='/login'>Login</NavLink></p>
                         </>
-                    }
                     {
                         user?.photoURL && <label className="btn hidden md:block btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
