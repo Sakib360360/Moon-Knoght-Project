@@ -5,14 +5,14 @@ const StartedSection = () => {
         <div className="bg-purple-100 rounded-md max-w-screen-xl mx-auto py-[5em] px-[1em]">
            <div className="px-[1em]">
             <p className=" mb-5">
-              <span className="border border-gray-900 text-gray-900 rounded-full p-3">BrandName</span>
+              <span className="border border-gray-900 text-gray-900 rounded-full p-3">EventGuru</span>
             </p>
             <h2 className="text-5xl font-bold text-gray-900 mb-10">
-           How It All Started
+           Our Upcoming Events
             </h2>
             <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
              <div className="">
-                <img className="rounded-md" src="https://i.ibb.co/tHVs4sj/82ece8cf2e8594aaffc5da278aaaf505.jpg" alt="" />
+                <img className="rounded-md" src="https://i.ibb.co/q79099G/photo-1492684223066-81342ee5ff30.jpg" alt="" />
              </div>
              <div>
                 <p className="text-gray-900">
