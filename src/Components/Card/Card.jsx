@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Card = () => {
     return (
         <>
-    <div className="w-56 h-64 shadow-lg">
+    <div className="w-56 h-64 shadow-lg mb-16">
         <img
           src="https://i.ibb.co/D9H6fzF/istockphoto-1200677760-612x612.jpg"
           alt="Card Image"
