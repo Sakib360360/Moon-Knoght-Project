@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
+import Banner from "../Banner/Banner";
+import Thankful from "../Thankful/Thankful";
+import Wearable from "../Wearable/Wearable";
 
 const Home = () => {
-    return (
-        <div>
-<<<<<<< HEAD
-            <h1 className="text-7xl font-bold underline">
-      Hello world!
-    </h1>
-=======
-           <h2>This is Home</h2>
->>>>>>> 4bb09d06f5dccbd2e8b604c74f20c2e9050b8b97
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+      <Wearable></Wearable>
+      <Thankful></Thankful>
+    </div>
+  );
 };
 
 export default Home;
