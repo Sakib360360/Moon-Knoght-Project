@@ -1,32 +1,30 @@
-
-import { createBrowserRouter } from 'react-router-dom';
-import Home from '../Home/Home/Home';
-import Main from '../Layouts/Main/Main';
-import LoginLayout from '../Layouts/Main/LoginLayout';
-import Login from '../page/Shared/Footer/Login';
+import { createBrowserRouter } from "react-router-dom";
+import Dashboard from "../Dashboard/Dashboard";
+import Home from "../Home/Home/Home";
+import Main from "../Layouts/Main/Main";
+import Login from "../page/Shared/Footer/Login";
 
 const Routes = createBrowserRouter([
-    {
-        path:'/',
-        element:<Main></Main>,
-        // errorElement:<ErrorPage></ErrorPage>,
-        children:[
-            {
-                path:'/',
-                element:<Home></Home>
-            },
-            
-        ]
-    },
-    {
+  {
+    path: "/",
+    element: <Main></Main>,
+    // errorElement:<ErrorPage></ErrorPage>,
+    children: [
+      {
         path: "/",
-        element: <LoginLayout></LoginLayout>,
-        children: [
-          {
-            path: "login",
-            element: <Login></Login>
-          }]
-        }
-])
+        element: <Home></Home>,
+      },
+      {
+        path: "/Dashboard",
+        element: <Dashboard></Dashboard>,
+      },
+
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+    ],
+  },
+]);
 
 export default Routes;
